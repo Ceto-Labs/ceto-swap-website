@@ -1,0 +1,33 @@
+{
+  "canisters": {
+    "www": {
+      "dependencies": [],
+      "frontend": {
+        "entrypoint": "public/index.html"
+      },
+      "source": [
+        "build"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": ""
+    }
+  },
+  "dfx": "0.7.2",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    },
+    "dev": {
+      "providers": [
+        "http://192.168.1.160:8000"
+      ],
+      "type": "persistent"
+    }
+  },
+  "version": 1
+}

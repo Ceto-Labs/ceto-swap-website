@@ -1,0 +1,177 @@
+@import '~antd/dist/antd.css';
+
+.layout {
+  background-color: #fff;
+
+  .ant-layout-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9 !important;
+    background: linear-gradient(330deg, #69bdb7 0%, #4c9bb8 100%);
+  }
+
+  .logo {
+    width: 170px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .right-space {
+    width: 170px;
+    height: 50px;
+  }
+
+  .ant-menu {
+    max-width: 1200px;
+    border: none;
+    font-size: 28px;
+    color: #fff;
+    background: transparent;
+
+    flex: 1;
+    justify-content: space-between;
+
+    &-item {
+      a {
+        color: #fff;
+
+        &:hover {
+          color: #fff;
+        }
+      }
+
+      &:hover {
+        color: #fff;
+
+        &::after {
+          border-color: #fff !important;
+        }
+      }
+
+      &-active {
+        color: #fff !important;
+
+        &::after {
+          border-color: #fff;
+        }
+      }
+
+      &-selected {
+        color: #fff !important;
+
+        &::after {
+          border-color: #fff !important;
+        }
+      }
+    }
+  }
+
+  .site-layout {
+    padding-top: 64px;
+  }
+
+  .ant-layout-footer {
+    display: flex;
+    justify-content: center;
+    height: 484px;
+    background: url('./assets/images/bg_img_03.png') no-repeat center top;
+    background-size: 100% 100%;
+
+    h3 {
+      height: 24px;
+      line-height: 24px;
+      margin-top: -30px;
+      font-size: 30px;
+      font-family: PingFangSC-Semibold, PingFang SC;
+      font-weight: 600;
+      color: #FFF;
+    }
+
+    .ant-form-item {
+      margin-right: 0;
+
+      &-control-input-content {
+        width: 400px;
+
+        .ant-input {
+          border-right: none;
+          height: 70px;
+          border-radius: 10px 0 0 10px;
+
+          &:focus,
+          &-focused {
+            border-color: #d9d9d9;
+          }
+        }
+
+        .ant-btn {
+          min-width: 160px;
+          height: 70px;
+          background: #D7E5F1;
+          border-radius: 0px 10px 10px 0px;
+
+          &:hover,
+          &:focus,
+          &:active {
+            border-color: #d9d9d9;
+          }
+
+          span {
+            font-size: 24px;
+            font-family: PingFangSC-Medium, PingFang SC;
+            font-weight: 500;
+            color: #00447E;
+          }
+        }
+      }
+    }
+  }
+}
+
+.connected-modal {
+  .ant-modal {
+    &-content {
+      border-radius: 10px;
+      // background-color: rgba(32, 69, 100, .9);
+    }
+
+    &-confirm-body {
+      width: 100%;
+      text-align: center;
+
+      &-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      >.anticon {
+        float: inherit;
+      }
+    }
+
+    &-confirm-btns {
+      .ant-btn {
+        height: 40px;
+        background: linear-gradient(330deg, #69bdb7 0%, #4c9bb8 100%);
+        border-radius: 4px;
+        border: none;
+        font-size: 24px;
+        color: #fff;
+        padding: 0 50px;
+
+      }
+    }
+
+    &-confirm-content {
+      line-height: 150px;
+      font-size: 30px;
+      background: linear-gradient(330deg, #69bdb7 0%, #4c9bb8 100%);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+  }
+}
