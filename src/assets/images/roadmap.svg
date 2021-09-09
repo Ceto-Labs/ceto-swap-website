@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1115px" height="691px" viewBox="0 0 1115 691" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>编组 20</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#68BDB8" offset="0%"></stop>
+            <stop stop-color="#377DB8" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="609.5" cy="81.5" r="81.5"></circle>
+        <filter x="-0.9%" y="-0.9%" width="101.8%" height="101.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-4" cx="87.3802703" cy="87.3325214" r="81"></circle>
+        <filter x="-9.0%" y="-12.0%" width="117.9%" height="117.9%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="-5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <ellipse id="path-6" cx="87.5" cy="87" rx="81.5" ry="81"></ellipse>
+        <filter x="-8.9%" y="-12.0%" width="117.8%" height="117.9%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="-5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-8" cx="88.0815935" cy="81.4895611" r="81"></circle>
+        <filter x="-9.0%" y="-5.9%" width="117.9%" height="117.9%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-10" cx="87" cy="81" r="81"></circle>
+        <filter x="-7.1%" y="-4.0%" width="114.2%" height="114.2%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-12">
+            <stop stop-color="#64B8B8" offset="0%"></stop>
+            <stop stop-color="#377DB8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="swap网页" transform="translate(-409.000000, -3643.000000)">
+            <g id="编组-20" transform="translate(356.000000, 3643.000000)">
+                <text id="Product-design-White" font-family="PingFangSC-Regular, PingFang SC" font-size="20" font-weight="normal" line-spacing="31" fill="#333333">
+                    <tspan x="75.24" y="603">Product design</tspan>
+                    <tspan x="89.14" y="634">White paper</tspan>
+                    <tspan x="54.92" y="665">Architecture design</tspan>
+                </text>
+                <text id="Identity-connection" font-family="PingFangSC-Regular, PingFang SC" font-size="20" font-weight="normal" line-spacing="31" fill="#333333">
+                    <tspan x="371.59" y="595">Identity connection</tspan>
+                    <tspan x="362.99" y="626">Fungible token Swap</tspan>
+                    <tspan x="386.52" y="657">Liquidity mining</tspan>
+                    <tspan x="365" y="688">Create Token Wallet</tspan>
+                </text>
+                <text id="Non-fungible-token-S" font-family="PingFangSC-Regular, PingFang SC" font-size="20" font-weight="normal" line-spacing="31" fill="#333333">
+                    <tspan x="649.84" y="603">Non-fungible token Swap</tspan>
+                    <tspan x="716.92" y="634">Order book</tspan>
+                    <tspan x="681.24" y="665">Testing and launch</tspan>
+                </text>
+                <text id="Develop-other-tradin" font-family="PingFangSC-Regular, PingFang SC" font-size="20" font-weight="normal" line-spacing="31" fill="#333333">
+                    <tspan x="967.41" y="603">Develop other trading </tspan>
+                    <tspan x="1025" y="634">functions</tspan>
+                </text>
+                <g id="椭圆形">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <circle stroke="url(#linearGradient-1)" stroke-width="15" stroke-linejoin="square" cx="609.5" cy="81.5" r="74"></circle>
+                </g>
+                <g id="编组-15" transform="translate(59.000000, 260.000000)">
+                    <path d="M175,87 C175,38.9512268 135.824916,0 87.5,0 C39.1750844,0 -5.68434189e-14,38.9512268 -5.68434189e-14,87" id="路径" stroke="#979797" stroke-width="12"></path>
+                    <path d="M175.38027,176.332521 C175.38027,128.283748 136.205186,89.3325214 87.8802703,89.3325214 C39.5553546,89.3325214 0.380270256,128.283748 0.380270256,176.332521" id="路径" stroke="#979797" stroke-width="3" stroke-dasharray="8" transform="translate(87.880270, 132.832521) scale(1, -1) translate(-87.880270, -132.832521) "></path>
+                    <g id="椭圆形备份-13">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                        <circle stroke="#FFFFFF" stroke-width="5" stroke-linejoin="square" fill="#377DB8" fill-rule="evenodd" cx="87.3802703" cy="87.3325214" r="78.5"></circle>
+                    </g>
+                    <text id="2021" font-family="PingFangSC-Regular, PingFang SC" font-size="24" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="61.5562703" y="48.3325214">2021</tspan>
+                    </text>
+                    <text id="Q2" font-family="PingFangSC-Medium, PingFang SC" font-size="48" font-weight="400" fill="#FFFFFF">
+                        <tspan x="55.4762703" y="107.332521">Q2</tspan>
+                    </text>
+                    <g id="编组-14" transform="translate(80.380270, 181.332521)">
+                        <circle id="椭圆形" fill="#377DB8" cx="7.5" cy="6.5" r="6.5"></circle>
+                        <line x1="7.5" y1="16.5" x2="7.5" y2="112.5" id="直线" stroke="#969696" stroke-width="3" stroke-linecap="square" stroke-dasharray="9"></line>
+                        <polygon id="三角形" fill="#377DB8" transform="translate(7.500000, 122.500000) scale(1, -1) translate(-7.500000, -122.500000) " points="7.5 115 15 130 0 130"></polygon>
+                    </g>
+                </g>
+                <g id="编组-17" transform="translate(669.666667, 260.000000)">
+                    <path d="M175,176 C175,127.951227 135.824916,89 87.5,89 C39.1750844,89 0,127.951227 0,176" id="路径备份-5" stroke="#979797" stroke-width="3" stroke-dasharray="8" transform="translate(87.500000, 132.500000) scale(1, -1) translate(-87.500000, -132.500000) "></path>
+                    <g id="编组-12">
+                        <path d="M175,87 C175,38.9512268 135.824916,0 87.5,0 C39.1750844,0 0,38.9512268 0,87" id="路径备份-2" stroke="#979797" stroke-width="12"></path>
+                        <g id="椭圆形备份-15">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                            <ellipse stroke="#FFFFFF" stroke-width="5" stroke-linejoin="square" fill="#377DB8" fill-rule="evenodd" cx="87.5" cy="87" rx="79" ry="78.5"></ellipse>
+                        </g>
+                    </g>
+                    <text id="2021备份-2" font-family="PingFangSC-Regular, PingFang SC" font-size="24" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="63.176" y="48">2021</tspan>
+                    </text>
+                    <text id="Q4" font-family="PingFangSC-Medium, PingFang SC" font-size="48" font-weight="400" fill="#FFFFFF">
+                        <tspan x="52.096" y="107">Q4</tspan>
+                    </text>
+                    <g id="编组-14备份-2" transform="translate(80.000000, 181.000000)">
+                        <circle id="椭圆形" fill="#377DB8" cx="7.5" cy="6.5" r="6.5"></circle>
+                        <line x1="7.5" y1="16.5" x2="7.5" y2="112.5" id="直线" stroke="#969696" stroke-width="3" stroke-linecap="square" stroke-dasharray="9"></line>
+                        <polygon id="三角形" fill="#377DB8" transform="translate(7.500000, 122.500000) scale(1, -1) translate(-7.500000, -122.500000) " points="7.5 115 15 130 0 130"></polygon>
+                    </g>
+                </g>
+                <g id="编组-16" transform="translate(364.333333, 256.000000)">
+                    <g id="编组-13" transform="translate(0.000000, 9.000000)">
+                        <path d="M175.724517,168.516031 C175.724517,120.467258 136.549432,81.5160311 88.2245168,81.5160311 C39.8996012,81.5160311 0.724516803,120.467258 0.724516803,168.516031" id="路径备份" stroke="#979797" stroke-width="12" transform="translate(88.224517, 125.016031) scale(1, -1) translate(-88.224517, -125.016031) "></path>
+                        <g id="椭圆形备份-14">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                            <circle stroke="#FFFFFF" stroke-width="5" stroke-linejoin="square" fill="#66BAB8" fill-rule="evenodd" cx="88.0815935" cy="81.4895611" r="78.5"></circle>
+                        </g>
+                    </g>
+                    <text id="2021备份" font-family="PingFangSC-Regular, PingFang SC" font-size="24" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="62.176" y="52">2021</tspan>
+                    </text>
+                    <text id="Q3" font-family="PingFangSC-Medium, PingFang SC" font-size="48" font-weight="400" fill="#FFFFFF">
+                        <tspan x="55.096" y="111">Q3</tspan>
+                    </text>
+                    <path d="M175,87 C175,38.9512268 135.824916,0 87.5,0 C39.1750844,0 0,38.9512268 0,87" id="路径备份-4" stroke="#979797" stroke-width="3" stroke-dasharray="8"></path>
+                    <g id="编组-14备份" transform="translate(88.000000, 185.000000)">
+                        <circle id="椭圆形" fill="#377DB8" cx="7.5" cy="6.5" r="6.5"></circle>
+                        <line x1="7.5" y1="16.5" x2="7.5" y2="112.5" id="直线" stroke="#969696" stroke-width="3" stroke-linecap="square" stroke-dasharray="9"></line>
+                        <polygon id="三角形" fill="#377DB8" transform="translate(7.500000, 122.500000) scale(1, -1) translate(-7.500000, -122.500000) " points="7.5 115 15 130 0 130"></polygon>
+                    </g>
+                </g>
+                <g id="编组-18" transform="translate(974.000000, 258.000000)">
+                    <g id="编组-11" transform="translate(1.000000, 8.000000)">
+                        <path d="M175,168 C175,119.951227 135.824916,81 87.5,81 C39.1750844,81 0,119.951227 0,168" id="路径备份-3" stroke="#979797" stroke-width="12" transform="translate(87.500000, 124.500000) scale(1, -1) translate(-87.500000, -124.500000) "></path>
+                        <g id="椭圆形备份-16">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
+                            <circle stroke="#FFFFFF" stroke-width="5" stroke-linejoin="square" fill="#67BBB8" fill-rule="evenodd" cx="87" cy="81" r="78.5"></circle>
+                        </g>
+                    </g>
+                    <text id="2022" font-family="PingFangSC-Regular, PingFang SC" font-size="24" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="59.4" y="50">2022</tspan>
+                    </text>
+                    <text id="…" font-family="PingFangSC-Medium, PingFang SC" font-size="48" font-weight="400" fill="#FFFFFF">
+                        <tspan x="64" y="96">…</tspan>
+                    </text>
+                    <path d="M175,87 C175,38.9512268 135.824916,0 87.5,0 C39.1750844,0 0,38.9512268 0,87" id="路径备份-6" stroke="#979797" stroke-width="3" stroke-dasharray="8"></path>
+                    <g id="编组-14备份-3" transform="translate(81.000000, 183.000000)">
+                        <circle id="椭圆形" fill="#377DB8" cx="7.5" cy="6.5" r="6.5"></circle>
+                        <line x1="7.5" y1="16.5" x2="7.5" y2="112.5" id="直线" stroke="#969696" stroke-width="3" stroke-linecap="square" stroke-dasharray="9"></line>
+                        <polygon id="三角形" fill="#377DB8" transform="translate(7.500000, 122.500000) scale(1, -1) translate(-7.500000, -122.500000) " points="7.5 115 15 130 0 130"></polygon>
+                    </g>
+                </g>
+                <text id="RoadMap" fill="url(#linearGradient-12)" font-family="PingFangSC-Medium, PingFang SC" font-size="24" font-weight="400">
+                    <tspan x="555.496" y="90">RoadMap</tspan>
+                </text>
+                <path d="M145,253.967211 L145,214 C145,138.336989 206.336989,77 282,77 C407.204276,77 478.541303,77 528,77 M691,77 C695.259922,77 722.754656,77 727.394477,77 C774.782387,77 841.984228,77 929,77 C1004.66301,77 1066,138.336989 1066,214 L1066,251" id="形状" stroke="#67BBB8" stroke-width="3"></path>
+                <line x1="655.5" y1="150.5" x2="753.5" y2="252.5" id="直线-4" stroke="#67BBB8" stroke-width="3" stroke-linecap="square"></line>
+                <line x1="563.5" y1="150.5" x2="459.5" y2="253.5" id="直线-5" stroke="#66BAB8" stroke-width="3" stroke-linecap="square"></line>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,98 @@
+.head-fixed {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9 !important;
+  background: linear-gradient(330deg, #69bdb7 0%, #4c9bb8 100%);
+
+  .logo {
+    width: 170px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .right-space {
+    width: 170px;
+    height: 50px;
+    font-size: 0;
+  }
+
+  .ant-menu {
+    max-width: 1200px;
+    border: none;
+    font-size: 28px;
+    color: #fff;
+    background: transparent;
+
+    flex: 1;
+    justify-content: space-between;
+
+    &-item {
+      a {
+        color: #fff;
+
+        &:hover {
+          color: #fff;
+        }
+      }
+
+      &:hover {
+        color: #fff;
+
+        &::after {
+          border-color: #fff !important;
+        }
+      }
+
+      &-active {
+        color: #fff !important;
+
+        &::after {
+          border-color: #fff;
+        }
+      }
+
+      &-selected {
+        color: #fff !important;
+
+        &::after {
+          border-color: #fff !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .head-fixed {
+    padding: 0 20px;
+
+    .logo {
+      width: 140px;
+    }
+
+    .right-space {
+      width: 50px;
+      color: #fff;
+      font-size: 28px;
+      line-height: 50px;
+      text-align: right;
+    }
+
+    .ant-menu {
+      display: none;
+    }
+  }
+
+  .custom-ant-drawer {
+    .ant-menu-vertical {
+      border-right: none;
+    }
+  }
+}

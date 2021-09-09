@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Row, Col, Image } from 'antd'
-import './style.scss'
+import './index.scss'
 
 import font001 from '../../assets/images/fonts/cetoswap.png'
 import font002 from '../../assets/images/fonts/feature.png'
@@ -11,7 +11,7 @@ import About02 from '../../assets/images/about02.png'
 import About03 from '../../assets/images/about03.png'
 import Feature01 from '../../assets/images/feature01.png'
 import MoreModule from '../../assets/images/more01.png'
-import RoadMap from '../../assets/images/roadmap.png'
+import RoadMap from '../../assets/images/roadmap.svg'
 
 const Home = (props) => {
   const [cardData] = useState([
@@ -59,12 +59,12 @@ const Home = (props) => {
       </div>
       <div id="features" className="page-module features bg">
         <div className="content">
-          <Row justify="space-between">
+          <Row justify="space-between" align="middle">
             <Col span={12}>
               <p className="title">Fast Easy-to-use</p>
               {/* <h2>What are the features?</h2> */}
               <h2>
-                <Image src={font002} preview={false} width={530} />
+                <Image src={font002} preview={false} />
               </h2>
               <ul className="list">
                 <li>
@@ -78,20 +78,20 @@ const Home = (props) => {
                 </li>
               </ul>
             </Col>
-            <Col span={12} style={{ textAlign: 'right' }}>
-              <Image src={Feature01} preview={false} width={570} />
+            <Col span={11} offset={1}>
+              <Image src={Feature01} preview={false} />
             </Col>
           </Row>
         </div>
       </div>
       <div className="page-module features features-more">
         <div className="content">
-          <Row gutter={16} justify="space-around" style={{ marginTop: 100 }}>
-            <Col span={10} push={14}>
+          <Row gutter={64} align="middle" style={{ marginTop: 100 }}>
+            <Col span={12} push={12}>
               <p className="title">More than fast</p>
               {/* <h2>More to come...</h2> */}
               <h2>
-                <Image src={font003} preview={false} width={350} />
+                <Image src={font003} preview={false} />
               </h2>
               <ul className="list">
                 <li>
@@ -104,8 +104,8 @@ const Home = (props) => {
                 </li>
               </ul>
             </Col>
-            <Col span={14} pull={10}>
-              <Image src={MoreModule} preview={false} width={570} />
+            <Col span={12} pull={12}>
+              <Image src={MoreModule} preview={false} />
             </Col>
           </Row>
         </div>
@@ -130,7 +130,7 @@ const Home = (props) => {
       <div id="about" className="page-module about">
         <div className="content">
           <div className="road-map">
-            <Image src={RoadMap} preview={false} height={760} alt="road map" />
+            <Image src={RoadMap} alt="road map" />
           </div>
           <div className="list-box">
             {cardData &&

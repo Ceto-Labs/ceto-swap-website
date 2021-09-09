@@ -3,72 +3,6 @@
 .layout {
   background-color: #fff;
 
-  .ant-layout-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 9 !important;
-    background: linear-gradient(330deg, #69bdb7 0%, #4c9bb8 100%);
-  }
-
-  .logo {
-    width: 170px;
-
-    img {
-      width: 100%;
-    }
-  }
-
-  .right-space {
-    width: 170px;
-    height: 50px;
-  }
-
-  .ant-menu {
-    max-width: 1200px;
-    border: none;
-    font-size: 28px;
-    color: #fff;
-    background: transparent;
-
-    flex: 1;
-    justify-content: space-between;
-
-    &-item {
-      a {
-        color: #fff;
-
-        &:hover {
-          color: #fff;
-        }
-      }
-
-      &:hover {
-        color: #fff;
-
-        &::after {
-          border-color: #fff !important;
-        }
-      }
-
-      &-active {
-        color: #fff !important;
-
-        &::after {
-          border-color: #fff;
-        }
-      }
-
-      &-selected {
-        color: #fff !important;
-
-        &::after {
-          border-color: #fff !important;
-        }
-      }
-    }
-  }
-
   .site-layout {
     padding-top: 64px;
   }
@@ -124,6 +58,37 @@
             font-family: PingFangSC-Medium, PingFang SC;
             font-weight: 500;
             color: #00447E;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 428px) {
+    .ant-layout-footer {
+      height: 300px;
+      padding: 24px 10px;
+
+      .ant-col {
+        width: 100%;
+      }
+
+      h3 {
+        font-size: 20px;
+        margin-top: 30px;
+      }
+
+      .ant-form-item-control-input-content {
+        width: auto;
+
+        .ant-input,
+        .ant-btn {
+          height: 50px;
+          max-width: 200px;
+          min-width: auto;
+
+          >span {
+            font-size: 16px;
           }
         }
       }
