@@ -57,7 +57,7 @@ const App = (props) => {
     console.debug('handleSubscribeEmail: ', email, typeof email)
     setLoading(true)
     await createActor(STORAGE_EMAIL_CID)
-      .addMailSub(email)
+      .addCetoMailSub(email)
       .then((res) => {
         console.log(res)
         if (res.ok) {
