@@ -1,4 +1,8 @@
-# Swap Web
+# [Ceto Swap Website](https://ijnlb-jiaaa-aaaah-qaesa-cai.ic0.app/)
+
+## What is CetoSwap?
+
+CetoSwap is a based on Dfinity fungible and non-fungible asset management platform.
 
 ## Available Scripts
 
@@ -11,11 +15,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
 
